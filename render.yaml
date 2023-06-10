@@ -1,0 +1,6 @@
+name: test-server
+docker:
+  image: itzg/minecraft-server
+  envVars:
+    - EULA=TRUE
+httpPort: 8080
